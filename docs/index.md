@@ -12,7 +12,7 @@ På andet semester skulle vi vælge et emne og udfærdige et projekt om det.
 Mit projekt undersøger, hvordan danske virksomheder kan opnå et højere niveau af IT-sikkerhed gennem arbejdet med D-mærket. Hvilken værdi kan mærket have for virksomheder, og hvordan hænger det sammen med danske og internationale lovgivninger og standarder på området?
 Du kan læse meget mere om projektet via linket her: 
 
-[Min side om D-mærket](https://bennyn86.gitlab.io/d-maerket/){ .md-button .md-button--primary }
+[Min side om D-mærket](https://bennyn86.github.io/d-maerket/){ .md-button .md-button--primary }
 
 ---
 
