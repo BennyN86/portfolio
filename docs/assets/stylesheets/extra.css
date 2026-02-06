@@ -1,0 +1,112 @@
+/* --- Globale tema- og farveindstillinger --- */
+:root {
+  --md-default-bg-color: #131212;        /* Baggrundsfarve */
+  --md-default-fg-color: #FFE6E8;        /* Tekstfarve */
+  --md-primary-fg-color: #426A5A;        /* Brugerdefineret headerfarve */
+}
+
+/* --- Overskrifter --- */
+.md-typeset h1,
+.md-typeset h2 {
+  color: #FFE6E8 !important;  /* Tving farven igennem */
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  color: #3C91E6 !important;  /* Tving farven igennem */
+}
+
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #E83F6F !important;  /* Tving farven igennem */
+}
+
+/* --- Tekst og afsnit --- */
+p {
+  font-size: 0.8rem;                          /* Teksstørrelse */
+  line-height: 1.5;                           /* Lnjeafstand */
+}
+
+/* Titel på kodeblokke */
+.md-typeset .highlighttable .filename {
+  background-color: #8d8d91 !important; 
+  color: #ffffff ; 
+  font-family: 'Fira Code', monospace;
+  font-size: 0.6rem;
+}
+
+/* Baggrundsfarve og tekstfarve for kodeblokke */
+.md-typeset pre,
+.md-typeset code {
+  background-color: #8d8d91 !important; /* Mørk baggrund */
+  color: #EEEEEE !important; /* Lys tekst */
+  font-family: 'Ubuntu Mono', monospace; /* Brugerdefineret skrifttype */
+}
+
+/* Baggrundsfarve for inline kode */
+.md-typeset code {
+  background-color: #8d8d91 !important; /* En lidt lysere baggrund */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Baggrundsfarve for code blocks med linjenumre */
+.md-typeset .highlight pre {
+  background-color: #8d8d91 !important; /* Ens baggrund */
+}
+
+
+/* --- Tabeller --- */
+.md-typeset table,
+.md-typeset th,
+.md-typeset td {
+  border: 1px solid #FFE6E8;  /* Hvid kant */
+}
+
+/* --- Navigationsmenu --- */
+.md-nav {
+  background-color: #131212;  /* Mørk baggrund i menuen */
+}
+
+.md-nav__link,
+.md-nav__item .md-nav__link,
+.md-nav__link--active {
+  color: #FFE6E8;  /* Hvid tekst */
+}
+
+.md-nav__link:hover {
+  color: #E0E0E0;  /* Hover-effekt */
+}
+
+/* --- Faner --- */
+.tabbed-alternate > .tabbed-labels > label {
+  color: #E0E0E0; /* Tekstfarve for ikke-valgte faner */
+}
+
+.tabbed-alternate > input:checked + label {
+  color: inherit; /* Bevarer temaets standardfarve for valgte faner */
+}
+
+.md-tabs__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.md-tabs__item {
+  flex: 1;
+}
+
+/* --- Blockquotes --- */
+.md-typeset blockquote {
+  color: #FFBF00;           /* Gul tekst */
+  background-color: #1d1c1c; /* Mørk baggrund */
+  border-left: 4px solid #FFE6E8; /* Hvid kant */
+}
+
+/* --- Billeder og logo --- */
+.logo {
+  width: 500px;
+  height: auto;
+  margin-left: 250px;
+}

@@ -1,0 +1,85 @@
+site_name: PBA IT-Sikkerhed
+site_url: https://bennyn86.gitlab.io/myportfolio/
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/cyber_security.png
+  language: da
+  font:
+    text: Aptos
+    code: Jetbrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.annotate
+    - content.code.select
+    - content.code.copy
+    - toc
+    - toc.numbered
+    - toc.accordion
+    - toc.back_to_top
+    - toc.collapse
+    - toc.progress
+    - toc.sticky
+
+    - toc.integrate
+    - search.full
+    - search.highlight
+    - search.term
+    - search.loader
+    - search.language
+    - search.related
+    - search.index
+    - search.suggest
+
+  palette:
+    - scheme: auto
+      primary: '#E83F6F'
+      accent: orange
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/benny-nielsen-1089b02b/'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/BennyN86'
+    - icon: 'fontawesome/brands/gitlab'
+      link: 'https://gitlab.com/BennyN86'  
+
+plugins:
+  - awesome-pages
+  - search
+  - mkdocs-pdf #https://pypi.org/project/mkdocs-pdf/
+
+nav:
+  - Forside: index.md
+  - Om Mig: about.md
+  - ...
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+

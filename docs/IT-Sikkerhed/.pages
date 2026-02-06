@@ -1,0 +1,7 @@
+title: Introduktion til IT-sikkerhed
+nav:
+    - Fagets Læringsmål: it-sikkerhed.md
+    - ...
+    
+order_by: title 
+sort_type: natural
